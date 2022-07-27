@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ZakatCaluclater.css">
+    <title>Zakat Calclator</title>
+    
+</head>
+<body>
+    <div class="calcu">
+        <h1>Zakat Online Calclator</h1>
+        <h3 class="subhead">Now Zakat calculating is very simple, just entre your orignal amount and get zakat amount</h3>
+        <input type="number" id="amount" placeholder="Enter Your Amount" class="aAmouant"><br>
+        <button class onclick="
+        let zakat = document.getElementById('amount').value / 40;
+        document.getElementById('zakat').innerText = zakat;
+        ">Zakat</button>
+        <p id="zakat"></p>
+    </div>
+</body>
+</html>
